@@ -84,7 +84,7 @@ public class TodoControllerTest {
     }
 
     @Test
-    void should_return_updated_todo_item_when_perform_post_given_todo_item() throws Exception {
+    void should_return_updated_todo_item_when_perform_put_given_todo_item() throws Exception {
         //given
         TodoItem todoItem1 = new TodoItem("Join Housewarming Party", false);
         TodoItem todoItem2 = new TodoItem("Play tennis", true);
