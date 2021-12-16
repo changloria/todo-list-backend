@@ -25,7 +25,7 @@ public class TodoController {
         return new ArrayList<>(todoService.findAll());
     }
 
-    //find all todoitems
+    //find todoitem by id
     @GetMapping("/{id}")
     public TodoItem getTodoItemById(@PathVariable String id) {
         return todoService.findById(id);
